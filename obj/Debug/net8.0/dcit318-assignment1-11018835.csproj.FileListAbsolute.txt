@@ -1,0 +1,15 @@
+/workspaces/dcit318-assignment1-11018835/bin/Debug/net8.0/dcit318-assignment1-11018835
+/workspaces/dcit318-assignment1-11018835/bin/Debug/net8.0/dcit318-assignment1-11018835.deps.json
+/workspaces/dcit318-assignment1-11018835/bin/Debug/net8.0/dcit318-assignment1-11018835.runtimeconfig.json
+/workspaces/dcit318-assignment1-11018835/bin/Debug/net8.0/dcit318-assignment1-11018835.dll
+/workspaces/dcit318-assignment1-11018835/bin/Debug/net8.0/dcit318-assignment1-11018835.pdb
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.AssemblyInfoInputs.cache
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.AssemblyInfo.cs
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.csproj.CoreCompileInputs.cache
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.sourcelink.json
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.dll
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/refint/dcit318-assignment1-11018835.dll
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.pdb
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/dcit318-assignment1-11018835.genruntimeconfig.cache
+/workspaces/dcit318-assignment1-11018835/obj/Debug/net8.0/ref/dcit318-assignment1-11018835.dll
