@@ -7,7 +7,8 @@ class Program
         Console.WriteLine("Choose a task:");
         Console.WriteLine("1. Grade Calculator");
         Console.WriteLine("2. Ticket Price Calculator");
-        Console.Write("Enter choice (1 or 2): ");
+        Console.WriteLine("3. Triangle Type Identifier");
+        Console.Write("Enter choice (1, 2, or 3): ");
         string choice = Console.ReadLine();
 
         switch (choice)
@@ -17,6 +18,9 @@ class Program
                 break;
             case "2":
                 TicketPriceCalculator();
+                break;
+            case "3":
+                TriangleTypeIdentifier();
                 break;
             default:
                 Console.WriteLine("Invalid choice.");
@@ -57,6 +61,33 @@ class Program
         else
         {
             Console.WriteLine("Invalid input. Please enter a valid age.");
+        }
+    }
+
+    static void TriangleTypeIdentifier()
+    {
+        Console.WriteLine("Enter the lengths of the three sides of the triangle:");
+
+        Console.Write("Side 1: ");
+        double side1 = double.Parse(Console.ReadLine());
+
+        Console.Write("Side 2: ");
+        double side2 = double.Parse(Console.ReadLine());
+
+        Console.Write("Side 3: ");
+        double side3 = double.Parse(Console.ReadLine());
+
+        if (side1 == side2 && side2 == side3)
+        {
+            Console.WriteLine("Triangle Type: Equilateral");
+        }
+        else if (side1 == side2 || side2 == side3 || side1 == side3)
+        {
+            Console.WriteLine("Triangle Type: Isosceles");
+        }
+        else
+        {
+            Console.WriteLine("Triangle Type: Scalene");
         }
     }
 }
