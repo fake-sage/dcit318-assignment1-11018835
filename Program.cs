@@ -4,6 +4,28 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Choose a task:");
+        Console.WriteLine("1. Grade Calculator");
+        Console.WriteLine("2. Ticket Price Calculator");
+        Console.Write("Enter choice (1 or 2): ");
+        string choice = Console.ReadLine();
+
+        switch (choice)
+        {
+            case "1":
+                GradeCalculator();
+                break;
+            case "2":
+                TicketPriceCalculator();
+                break;
+            default:
+                Console.WriteLine("Invalid choice.");
+                break;
+        }
+    }
+
+    static void GradeCalculator()
+    {
         Console.Write("Enter your numerical grade (0-100): ");
         if (int.TryParse(Console.ReadLine(), out int grade))
         {
@@ -21,6 +43,20 @@ class Program
         else
         {
             Console.WriteLine("Invalid input. Please enter a number between 0 and 100.");
+        }
+    }
+
+    static void TicketPriceCalculator()
+    {
+        Console.Write("Enter your age: ");
+        if (int.TryParse(Console.ReadLine(), out int age))
+        {
+            int price = (age <= 12 || age >= 65) ? 7 : 10;
+            Console.WriteLine($"Ticket Price: GHC{price}");
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Please enter a valid age.");
         }
     }
 }
